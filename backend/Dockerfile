@@ -15,6 +15,7 @@ COPY . .
 
 # Stage 2: Run with distroless
 
+
 FROM gcr.io/distroless/nodejs20
 
 # Set working directory
